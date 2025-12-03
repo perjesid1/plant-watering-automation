@@ -11,5 +11,5 @@ Alkatrészek:
 - LCD kijelző
 
 ## Resources used
-[MicroPython Capacitive Soil Moisture Sensor](https://github.com/ashleywm/micropython-capacitive-soil-moisture-sensor/blob/master/src/CSMS.py)
+[MicroPython Capacitive Soil Moisture Sensor](https://github.com/ashleywm/micropython-capacitive-soil-moisture-sensor/blob/master/src/CSMS.py)  
 [MicroPython - Read LDR or Photoresistor](https://www.donskytech.com/micropython-read-ldr-or-photoresistor/)
