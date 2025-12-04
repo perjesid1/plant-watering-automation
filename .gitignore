@@ -26,3 +26,4 @@ __pycache__/
 .micropy/
 .pymakr/
 .micropico/
+.micropico
