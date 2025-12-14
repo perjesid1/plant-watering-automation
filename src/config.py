@@ -28,4 +28,8 @@ OLED_HEIGHT: int = 32 # Height of the OLED screen.
 RTC_TIMESTAMP_SIZE: int = 8 # How many bites the timestamp takes up in the RTC memory
 MSG_REPEAT: int = 3 # How many times do we repeat the messages on the OLED screen.
 
-# --- MQTT ---
+# --- MQTT CONFIG (public) ---
+MQTT_BROKER: str = "192.168.1.100"
+MQTT_PORT: int = 1883
+MQTT_CLIENT_ID: str = "plant_device_01"
+MQTT_TOPIC_BASE: str = "plant/device01"
