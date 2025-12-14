@@ -27,3 +27,5 @@ OLED_WIDTH: int = 128 # Width of the OLED screen.
 OLED_HEIGHT: int = 32 # Height of the OLED screen.
 RTC_TIMESTAMP_SIZE: int = 8 # How many bites the timestamp takes up in the RTC memory
 MSG_REPEAT: int = 3 # How many times do we repeat the messages on the OLED screen.
+
+# --- MQTT ---
