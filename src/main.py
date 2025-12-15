@@ -3,6 +3,49 @@ from machine import Pin, ADC, I2C, RTC
 import time
 import ssd1306
 import config
+import network
+from umqtt.simple import MQTTClient
+import json
+
+try:
+    import secrets
+except ImportError:
+    secrets = None
+
+def connect_wifi():
+    if not secrets:
+        print("No WiFi secrets found")
+        return False
+
+    wlan = network.WLAN(network.STA_IF)
+    wlan.active(True)
+    if not wlan.isconnected():
+        print("Connecting to WiFi...")
+        wlan.connect(secrets.WIFI_SSID, secrets.WIFI_PASSWORD)
+        for _ in range(20):
+            if wlan.isconnected():
+                print("WiFi connected:", wlan.ifconfig())
+                return True
+            time.sleep(1)
+
+    return wlan.isconnected()
+
+def connect_mqtt():
+    client = MQTTClient(
+        client_id=config.MQTT_CLIENT_ID,
+        server=config.MQTT_BROKER,
+        port=config.MQTT_PORT,
+        keepalive=60
+    )
+    client.connect()
+    print("Connected to MQTT broker")
+    return client
+
+def mqtt_publish_status(mqtt, payload: dict):
+    mqtt.publish(
+        f"{config.MQTT_TOPIC_BASE}/status",
+        json.dumps(payload)
+    )
 
 relay_pin: Pin = Pin(config.PUMP_RELAY_PIN, Pin.OUT, value=0)
 ldr_pin: Pin = Pin(config.LDR_PIN, Pin.IN)

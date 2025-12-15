@@ -27,3 +27,13 @@ OLED_WIDTH: int = 128 # Width of the OLED screen.
 OLED_HEIGHT: int = 32 # Height of the OLED screen.
 RTC_TIMESTAMP_SIZE: int = 8 # How many bites the timestamp takes up in the RTC memory
 MSG_REPEAT: int = 3 # How many times do we repeat the messages on the OLED screen.
+
+# --- MQTT CONFIG (public) ---
+MQTT_BROKER: str = "8fb34422df8e460fa89ea4ee5fbd28bf.s1.eu.hivemq.cloud"
+MQTT_PORT: int = 8883
+MQTT_CLIENT_ID: str = "plant_device_01"
+MQTT_TOPIC_BASE: str = "plant/device01"
+
+
+# TLS settings
+MQTT_USE_TLS: bool = True 
