@@ -75,6 +75,19 @@ python
   Fotorezisztor (LDR) GPIO olvasása, fényviszony állapot meghatározása
 
 
+**Lábkiosztás táblázat:**
+
+| Alkatrész          | ESP32 GPIO | Típus  | Cikkszám |
+|--------------------|------------|--------|----------|
+| **Relémodul IN**   | **GPIO23** | Kimenet| REL9884  |
+| **Fotorezisztor**  | **GPIO19** | Bemenet| LDR      |
+| **Nedv. szenzor**  | **GPIO34** | ADC    | VST581   |
+| **OLED SDA**       | **GPIO21** | I2C    | SSD1306  |
+| **OLED SCL**       | **GPIO22** | I2C    | SSD1306  |
+
+
+Forráskód, megjegyzésekkel!
+
 
 
 ## Képek a készítésről és végeredményről 📸
@@ -94,6 +107,4 @@ python
 
 
 
-áramköri rajz, lábkiosztás
-Forráskód, megjegyzésekkel!
 Rövid bemutató a működésről
