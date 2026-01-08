@@ -34,7 +34,7 @@ README, BOM, lábkiosztás, fotók, projekt dokumentáció
 | Terminál adapter ESP32 38-tűs (SHI631)                       | SHI631           | Bővítőmodulok                      | 1         | AD1  |
 | Tömlő vízszivattyúkhoz 6.5 mm (OST871)                       | OST871           | Szerelési anyag                    | 1         | T1   |
 | Wago terminál PCT-415 1*5 (KAB2265)                          | KAB2265          | Sorkapcsok                         | 1         | W1   |
-| **Fotorezisztor (LDR)                                        | LDR-GL5528       | Fényérzékelő                       | 1         | R1   |
+| Fotorezisztor (LDR)                                          | LDR-GL5528       | Fényérzékelő                       | 1         | R1   |
 | Ellenállás 10 kΩ                                             |   RES-10K        | Passzív elem (LDR osztóhoz)        | 1         | R2   |
 
 
@@ -57,14 +57,14 @@ MicroPython modulok:
 
 **Könyvtárak:**
 python
-ssd1306.py      # SSD1306 OLED driver (128x32, I2C)
-umqtt.simple    # MQTT kliens HiveMQ Cloudhoz (TLS)
-paho-mqtt       # PC-s tesztkliens (mqtt_test.py)
+- ssd1306.py      # SSD1306 OLED driver (128x32, I2C)
+- umqtt.simple    # MQTT kliens HiveMQ Cloudhoz (TLS)
+- paho-mqtt       # PC-s tesztkliens (mqtt_test.py)
 
-Fejlesztői eszközök:
-Thonny 4.1.7 – MicroPython fájlok feltöltése ESP32-re, soros monitor
-VS Code –  Kód szerkesztés, GitHub integráció
-Node-RED – Webes dashboard (MQTT-in → JSON → gauge/text widgetek)
+**Fejlesztői eszközök:**
+- Thonny 4.1.7 – MicroPython fájlok feltöltése ESP32-re, soros monitor
+- VS Code –  Kód szerkesztés, GitHub integráció
+- Node-RED – Webes dashboard (MQTT-in → JSON → gauge/text widgetek)
 
 ## Használt források 🛠️
 
