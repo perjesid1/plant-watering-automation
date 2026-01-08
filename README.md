@@ -36,7 +36,8 @@ README, BOM, lábkiosztás, fotók, projekt dokumentáció
 | Wago terminál PCT-415 1*5 (KAB2265)                          | KAB2265          | Sorkapcsok                         | 1         | W1   |
 | Fotorezisztor (LDR)                                          | LDR-GL5528       | Fényérzékelő                       | 1         | R1   |
 | Ellenállás 10 kΩ                                             |   RES-10K        | Passzív elem (LDR osztóhoz)        | 1         | R2   |
-
+| Kijelző                                                      |                  |                                    | 1         | S1   |
+| Power Adapter                                                |                  |                                    | 1         | PA1  |
 
 A BOM a techfun.hu áruházból származó pontos cikkszámokat tartalmazza, amelyekkel a projekt prototípusa készült; a relémodul H/L jumperrel támogatja mind HIGH, mind LOW trigger módot.
 
@@ -84,7 +85,11 @@ python
 | **Nedv. szenzor**  | **GPIO34** | ADC    | VST581   |
 | **OLED SDA**       | **GPIO21** | I2C    | SSD1306  |
 | **OLED SCL**       | **GPIO22** | I2C    | SSD1306  |
+| **OLED SCL**       | **GPIO22** | I2C    | SSD1306  |
 
+
+**Áramkör:**
+[![Áramkör](./docs/circuit.pdf)](./docs/circuit.pdf)
 
 ## Forráskód:
 
