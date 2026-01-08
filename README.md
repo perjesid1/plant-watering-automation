@@ -83,13 +83,14 @@ python
 | **Relémodul IN**   | **GPIO23** | Kimenet| REL9884  |
 | **Fotorezisztor**  | **GPIO19** | Bemenet| LDR      |
 | **Nedv. szenzor**  | **GPIO34** | ADC    | VST581   |
-| **OLED SDA**       | **GPIO21** | I2C    | SSD1306  |
+| **OLED SDA**       | **GPIO21** | I2C    | SSD1306  |<img width="564" height="715" alt="Képernyőkép 2026-01-08 231820" src="https://github.com/user-attachments/assets/3cfc7457-d429-4a30-96bc-47b640ae5e02" />
+
 | **OLED SCL**       | **GPIO22** | I2C    | SSD1306  |
 | **OLED SCL**       | **GPIO22** | I2C    | SSD1306  |
 
 
 **Áramkör:**
-![Aramkör]("src="https://github.com/user-attachments/assets/c25ba489-2e31-4a04-88ea-470918b50d56")
+<img width="564" height="715" alt="Képernyőkép 2026-01-08 231820" src="https://github.com/user-attachments/assets/17a9553e-907e-4552-b22e-c4e19d45840f" />
 
 ## Forráskód:
 
@@ -668,5 +669,6 @@ class SSD1306_SPI(SSD1306):
 
 **Rövid bemutató a működésről:**
 [![Demo](./docs/Demo.MOV)](./docs/Demo.MOV)
+
 
 
