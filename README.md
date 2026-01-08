@@ -77,9 +77,22 @@ python
 
 
 
+## Képek
+
+**HiveMQ Dashboard:**
+![HiveMQ][cc2fae7e-2ed4-4d22-a4e1-966fed2647f9.jpg]
+
+**Prototípus bekötések:**
+![Bekötés 1][b8beaf68-9760-4cd5-9f52-45f1cc2d108b.jpg]
+![Bekötés 2][7d66fd54-5b86-4249-acdf-658b86f934fd.jpg]
+
+**Node-RED Flow & Dashboard:**
+![Node-RED][776795ff-8492-4878-8146-5871353da701.jpg]
+![Dashboard][8b7f1f7e-7eb4-4505-a1b7-0a918d2b0582.jpg]
 
 
 áramköri rajz, lábkiosztás
-Forráskód, megjegyzésekkel
+Forráskód, megjegyzésekkel![Uploading 7d66fd54-5b86-4249-acdf-658b86f934fd.jpg…]()
+
 Képek a készítésről és a végeredményről!
 Rövid bemutató a működésről
