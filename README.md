@@ -66,7 +66,7 @@ python
 - VS Code –  Kód szerkesztés, GitHub integráció
 - Node-RED – Webes dashboard (MQTT-in → JSON → gauge/text widgetek)
 
-## Használt források 🛠️
+## Használt források 
 
 - **[MicroPython Kapacitív Talajnedvesség Szenzor](https://github.com/ashleywm/micropython-capacitive-soil-moisture-sensor/blob/master/src/CSMS.py)**  
   Talajnedvesség-szenzor kezelés, kalibráció inspirációja (VST581 szenzorhoz)
@@ -86,11 +86,11 @@ python
 | **OLED SCL**       | **GPIO22** | I2C    | SSD1306  |
 
 
-Forráskód, megjegyzésekkel!
+##Forráskód:
 
 
 
-## Képek a készítésről és végeredményről 📸
+## Képek a készítésről és végeredményről 
 
 **HiveMQ Dashboard beállítás:**
 ![HiveMQ Dashboard](https://github.com/user-attachments/assets/664400ff-c0f9-43c4-ac2d-f5dd64fba984)
