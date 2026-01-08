@@ -56,7 +56,7 @@ MicroPython modulok:
 - `time`, `network`, `json`, `math`
 
 **Könyvtárak:**
-```python
+python
 ssd1306.py      # SSD1306 OLED driver (128x32, I2C)
 umqtt.simple    # MQTT kliens HiveMQ Cloudhoz (TLS)
 paho-mqtt       # PC-s tesztkliens (mqtt_test.py)
