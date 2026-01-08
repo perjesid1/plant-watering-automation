@@ -1,17 +1,29 @@
 # plant-watering-automation
 
-Projekt célja:
-A növény öntözésének automatizálása úgy, hogy csak akkor locsoljon, ha a talaj nedvessége egy küszöbérték alá esik, és az öntözések között minimum 1 óra teljen el.
-Funkciók: kapacitív talajnedvesség-mérés (ADC), fényviszonyok érzékelése LDR-rel, vízpumpa vezérlése relémodullal, OLED-es helyi kijelzés, valamint MQTT-n keresztüli adatszolgáltatás egy Node‑RED alapú webes dashboard felé.
+## Projekt célja
 
-Csapat tagjai + feladatok:
-Perjési Dániel : Hardware design & Embedded software 
-Szenzorok, relé és vízpumpa bekötése az ESP32-höz, tápellátás, breadboard/prototípus összeállítása. boot.py, config.py, main.py és az OLED‑kezelés megírása MicroPythonban, mélységi alvás (deep sleep) logika és öntözési algoritmus
-Gyarmati Gábor : Cloud & dashboard 
-HiveMQ Cloud MQTT broker beállítása, Node‑RED flow elkészítése, dashboard (Moisture %, Light, Thirsty státusz) kialakítása
-Spacsek-Kovács Kinga : Documentation
+**A növény öntözésének automatizálása** úgy, hogy csak akkor locsoljon, ha a talaj nedvessége egy küszöbérték alá esik, és az öntözések között minimum 1 óra teljen el.
 
-Hardveres BOM:
+**Funkciók:**
+- Kapacitív talajnedvesség-mérés (ADC)  
+- Fényviszonyok érzékelése LDR-rel  
+- Ví zpumpa vezérlése relémodullal  
+- OLED-es helyi kijelzés  
+- MQTT-n keresztüli adatszolgáltatás egy **Node-RED alapú webes dashboard** felé  
+
+## Csapat tagjai és feladatkiosztás
+
+**Perjési Dániel** – *Hardware design & Embedded software*  
+Szenzorok, relé és vízpumpa bekötése az ESP32-höz, tápellátás, breadboard/prototípus összeállítása. `boot.py`, `config.py`, `main.py` és az OLED‑kezelés megírása MicroPythonban, mélységi alvás (deep sleep) logika és öntözési algoritmus  
+
+**Gyarmati Gábor** – *Cloud & dashboard*  
+HiveMQ Cloud MQTT broker beállítása, Node‑RED flow elkészítése, dashboard (Moisture %, Light, Thirsty státusz) kialakítása  
+
+**Spacsek-Kovács Kinga** – *Documentation*  
+README, BOM, lábkiosztás, fotók, projekt dokumentáció
+
+
+**Hardveres BOM:**
 
 | Alkatrész neve / leírás                                      | Gyártói cikkszám | Kategória                          | Mennyiség | Ref  |
 |--------------------------------------------------------------|------------------|------------------------------------|-----------|------|
@@ -29,7 +41,7 @@ Hardveres BOM:
 A BOM a techfun.hu áruházból származó pontos cikkszámokat tartalmazza, amelyekkel a projekt prototípusa készült; a relémodul H/L jumperrel támogatja mind HIGH, mind LOW trigger módot.
 
 
-Szoftveres BOM
+**Szoftveres BOM**
 
 | Komponens / Szolgáltató | Verzió / Típus | Cél / Megjegyzés |
 |-------------------------|----------------|------------------|
