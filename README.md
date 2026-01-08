@@ -77,22 +77,23 @@ python
 
 
 
-## Képek
+## Képek a készítésről és végeredményről 📸
 
-**HiveMQ Dashboard:**
-![HiveMQ][cc2fae7e-2ed4-4d22-a4e1-966fed2647f9.jpg]
+**HiveMQ Dashboard beállítás:**
+![HiveMQ Dashboard](https://github.com/user-attachments/assets/664400ff-c0f9-43c4-ac2d-f5dd64fba984)
 
-**Prototípus bekötések:**
-![Bekötés 1][b8beaf68-9760-4cd5-9f52-45f1cc2d108b.jpg]
-![Bekötés 2][7d66fd54-5b86-4249-acdf-658b86f934fd.jpg]
+**Prototípus breadboard bekötések:**
+![Bekötés 1](https://github.com/user-attachments/assets/97796e44-7a63-43b0-a69d-d22d60c88ec9)
+![Bekötés 2](https://github.com/user-attachments/assets/a750ac9a-7d63-4484-aeec-c7ea7be5327a)
+![Bekötés 3](https://github.com/user-attachments/assets/e77c480f-c3ca-4637-a125-018d6aba5121)
 
 **Node-RED Flow & Dashboard:**
-![Node-RED][776795ff-8492-4878-8146-5871353da701.jpg]
-![Dashboard][8b7f1f7e-7eb4-4505-a1b7-0a918d2b0582.jpg]
+![Node-RED Flow](https://github.com/user-attachments/assets/57bde317-ff7c-47dc-bdd7-3d902576d621)
+![Web Dashboard](https://github.com/user-attachments/assets/ba89acc6-48fb-48b9-8388-c642a7453b7e)
+
+
 
 
 áramköri rajz, lábkiosztás
-Forráskód, megjegyzésekkel![Uploading 7d66fd54-5b86-4249-acdf-658b86f934fd.jpg…]()
-
-Képek a készítésről és a végeredményről!
+Forráskód, megjegyzésekkel!
 Rövid bemutató a működésről
