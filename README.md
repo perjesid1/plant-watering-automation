@@ -89,7 +89,7 @@ python
 
 
 **Áramkör:**
-[![Áramköri diagram](https://github.com/perjesid1/plant-watering-automation/raw/main/docs/circuit.pdf)](https://github.com/perjesid1/plant-watering-automation/blob/main/docs/circuit.pdf)
+![Aramkör]("src="https://github.com/user-attachments/assets/c25ba489-2e31-4a04-88ea-470918b50d56")
 
 ## Forráskód:
 
