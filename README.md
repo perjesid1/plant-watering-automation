@@ -55,11 +55,11 @@ MicroPython modulok:
 - `machine` (Pin/ADC/I2C/RTC)
 - `time`, `network`, `json`, `math`
 
-Könyvtárak:
-python
-ssd1306.py     # SSD1306 OLED driver
-umqtt.simple   # MQTT kliens HiveMQ-hez
-paho-mqtt      # PC-s tesztkliens (mqtt_test.py)
+**Könyvtárak:**
+```python
+ssd1306.py      # SSD1306 OLED driver (128x32, I2C)
+umqtt.simple    # MQTT kliens HiveMQ Cloudhoz (TLS)
+paho-mqtt       # PC-s tesztkliens (mqtt_test.py)
 
 Fejlesztői eszközök:
 Thonny 4.1.7 – MicroPython fájlok feltöltése ESP32-re, soros monitor
