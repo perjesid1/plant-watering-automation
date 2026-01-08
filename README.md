@@ -83,8 +83,7 @@ python
 | **Relémodul IN**   | **GPIO23** | Kimenet| REL9884  |
 | **Fotorezisztor**  | **GPIO19** | Bemenet| LDR      |
 | **Nedv. szenzor**  | **GPIO34** | ADC    | VST581   |
-| **OLED SDA**       | **GPIO21** | I2C    | SSD1306  |<img width="564" height="715" alt="Képernyőkép 2026-01-08 231820" src="https://github.com/user-attachments/assets/3cfc7457-d429-4a30-96bc-47b640ae5e02" />
-
+| **OLED SDA**       | **GPIO21** | I2C    | SSD1306  |
 | **OLED SCL**       | **GPIO22** | I2C    | SSD1306  |
 | **OLED SCL**       | **GPIO22** | I2C    | SSD1306  |
 
