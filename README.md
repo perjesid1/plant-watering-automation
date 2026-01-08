@@ -88,7 +88,7 @@ python
 | **OLED SCL**       | **GPIO22** | I2C    | SSD1306  |
 
 
-**Áramkör:**
+##Áramkör:
 <img width="564" height="715" alt="Képernyőkép 2026-01-08 231820" src="https://github.com/user-attachments/assets/17a9553e-907e-4552-b22e-c4e19d45840f" />
 
 ## Forráskód:
