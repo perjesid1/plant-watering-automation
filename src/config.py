@@ -8,8 +8,8 @@ OLED_SCL_PIN: int = 22 # GPIO22
 # --- Timing Constants ---
 OLED_RESET_WAIT_MS: int = 100 # 0.1 sec in ms - How much time the microcontroller should wait in the booting period for the oled to initialize.
 OLED_DISPLAY_S: int = 3 # 3 sec - For how long the screen should display information.
-WATERING_WAIT_S: int = 1 # 1 hour in sec - Minimum waiting time between wateing sessions of the plant !!!!!!!!!!!!!!!!
-SLEEP_TIME_MS: float = 5 # 1 hour in ms - How much the microcontroller should wait between checks. !!!!!!!!!!!!
+WATERING_WAIT_S: int = 1 # 1 hour in sec - Minimum waiting time between wateing sessions of the plant (modified for testing).
+SLEEP_TIME_MS: float = 5 # 1 hour in ms - How much the microcontroller should wait between checks. (modified for testing)
 PUMP_WATERING_S: int = 1 # 5 sec - Total lenght of the watering period
 PUMP_PAUSE_S: int = 5 # 5 sec - Lenght of the pauses between watering cycles in case CONTINOUS_WATERING = false
 
