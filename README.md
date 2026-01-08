@@ -82,12 +82,12 @@ python
 **HiveMQ Dashboard beállítás:**
 ![HiveMQ Dashboard](https://github.com/user-attachments/assets/664400ff-c0f9-43c4-ac2d-f5dd64fba984)
 
-**Prototípus breadboard bekötések:**
+**Node-RED Flow & Dashboard:**
 ![Bekötés 1](https://github.com/user-attachments/assets/97796e44-7a63-43b0-a69d-d22d60c88ec9)
 ![Bekötés 2](https://github.com/user-attachments/assets/a750ac9a-7d63-4484-aeec-c7ea7be5327a)
 ![Bekötés 3](https://github.com/user-attachments/assets/e77c480f-c3ca-4637-a125-018d6aba5121)
 
-**Node-RED Flow & Dashboard:**
+**Prototípus:**
 ![Node-RED Flow](https://github.com/user-attachments/assets/57bde317-ff7c-47dc-bdd7-3d902576d621)
 ![Web Dashboard](https://github.com/user-attachments/assets/ba89acc6-48fb-48b9-8388-c642a7453b7e)
 
