@@ -662,9 +662,6 @@ class SSD1306_SPI(SSD1306):
 ![Web Dashboard](https://github.com/user-attachments/assets/ba89acc6-48fb-48b9-8388-c642a7453b7e)
 
 **Rövid bemutató a működésről:**
-- 1. Indulás (ESP32 felébred): WiFi connect → MQTT HiveMQ → szenzorok init
-- 2. Mérés (5 mp): Talajnedvesség: 65% (GPIO34) → SZÁRAZ ❌ ,Fény: Dark (GPIO19), Eltelt: 1h 15p (RTC memória)
-- 3. Öntözés (ha kell): Relé ON (GPIO23) → pumpa 1 mp → OFF, Új timestamp RTC-be
-- 4. Kijelzés & kommunikáció: OLED: "Just watered!" + 65%, MQTT: {"moisture":65,"needs_watering":true}, Node-RED dashboard frissül
-- 5. Alvás: deepsleep(5 mp) → következő mérés, ciklus ismétlődik!
+[![Demo](./docs/Demo.MOV)](./docs/Demo.MOV)
+
 
